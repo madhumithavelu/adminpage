@@ -1,5 +1,6 @@
 import React from "react";
-
+import Programs from "./Programs";
+import Batches from "./Batches";
 const Dashboard = () => {
   return (
     <div>
@@ -26,6 +27,8 @@ const Dashboard = () => {
         <h3>User Management</h3>
         <p>Create and manage trainer and trainee accounts</p>
       </div>
+      <Programs/>
+      <Batches/>
     </div>
   );
 };
